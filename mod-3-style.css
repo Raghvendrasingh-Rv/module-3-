@@ -1,0 +1,148 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color:#ffcccc;
+	font-family: serif;
+
+}
+#header-nav{
+	background-color: #ffff00;
+    border-radius: 0;
+    border: 0;
+    height: 80px;
+}
+.navbr-brand{
+padding-top:  15px;
+
+}
+.navbar-brand h1{
+	font-family: monospace;
+	color: rgba(51, 255, 0, 0.897);
+	font-size: 1.75em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin:0;
+	padding: 0;
+	float: left;
+
+
+}
+#nav-list
+{
+	margin-top: 10px;
+
+}
+#navbar-span{
+	font-size: 1.3em;
+}
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f;
+
+	
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -15px;
+	background-color: red;
+}
+#nav-list a{
+	color: #ff4000;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #00ffff;
+	line-height: 0.7;
+}
+#nav-list a:hover{
+	background: #e7e7e7;
+}
+ h1{margin-top: 105px;
+	color: #0000ff;
+	font-weight: bold;
+	font-size: 4em;
+   
+}
+.row{
+	width: 100%;
+	padding-left: 30px;
+}
+.i2{
+  width: 100%;
+  border: 1px ;
+  background-color: #f7e228;
+  padding-right: 10px;
+  padding-left: 25px;
+  height: 1000px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  font-family: cursive;
+  color: #0040ff;
+  position: relative;
+  overflow: auto;
+  padding: 15px auto 5px ;
+font-size: 2em;
+position: relative;
+}
+h1 #left{
+	text-align: left;
+}
+ .i3{
+	
+    text-align: center;
+	color: red;
+	font-family: serif;
+	font-weight: bold;
+	position: absolute;
+	
+	padding: 5px;
+	left:35%;
+	
+    float: right;
+	margin-top: 5px;
+
+	font-size: 1.8em;
+
+}
+	
+@media(min-width: 1200px){
+.navbar-brand h1{
+	
+	text-align: left; 
+	left:0;
+	float: left;
+
+}
+.i3{
+	left:40%;
+}
+}
+@media(min-width: 992px)and (max-width: 1199px){
+.navbar-brand h1{
+	
+	text-align: left;
+	left:0;
+	float: left;
+}
+.i3{
+
+	left:45%;
+}
+}
+@media(min-width: 768px)and(max-width: 991px){
+.navbar-brand h1{
+	
+	text-align: left;
+	left:0;
+	float: left;
+
+}
+
+}
